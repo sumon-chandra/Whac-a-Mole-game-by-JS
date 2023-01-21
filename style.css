@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #d4e8fa;
+}
+header {
+  background-color: #757575;
+  font-family: monospace;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+h2 {
+  font-size: 3em;
+}
+button {
+  padding: 10px 40px;
+  border-radius: 3px;
+  font-size: 1.3em;
+  background-color: #d4e8fa;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 1px 1px 9px 3px rgb(255, 255, 255);
+}
+#grid {
+  width: 700px;
+  height: 500px;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+  padding: 1em;
+}
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+.mole {
+  background-image: url("./monkey.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.8s;
+}
